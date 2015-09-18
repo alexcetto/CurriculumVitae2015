@@ -92,3 +92,13 @@ footer h2{
     height: 20px;
     margin-right: 12px;
 }
+
+@media (max-width: 640px) {
+    #navigation ul a>li{
+        padding: .5rem;
+        font-weight: 600;
+    }
+    footer{
+        height: 100%;
+    }   
+}
